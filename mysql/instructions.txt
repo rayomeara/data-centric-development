@@ -19,3 +19,6 @@ Running script file in command prompt:
 
         source [filename]
 
+Installing pymysql
+
+        (sudo) pip3 install pymysql
