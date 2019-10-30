@@ -1,0 +1,4 @@
+Connect to Mongo from command prompt:
+
+        mongo "mongodb+srv://myfirstcluster-2scdt.mongodb.net/myTestDB" --username root
+
