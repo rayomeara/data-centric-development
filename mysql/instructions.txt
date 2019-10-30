@@ -1,0 +1,21 @@
+Logging into mysql:
+
+        mysql -u $C9_USER -p
+
+Getting script file down:
+
+        wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_MySql_AutoIncrementPKs.sql
+
+Run script into database:
+
+        mysql -u $C9_USER -p < Chinook_MySql_AutoIncrementPKs.sql
+
+Logging/Stop Logging mysql commands to file:
+
+        tee [filename]
+        notee
+
+Running script file in command prompt:
+
+        source [filename]
+
