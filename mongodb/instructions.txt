@@ -2,3 +2,14 @@ Connect to Mongo from command prompt:
 
         mongo "mongodb+srv://myfirstcluster-2scdt.mongodb.net/myTestDB" --username root
 
+Command line commands:
+        coll = db.myFirstMDB
+        coll.insert({})
+        coll.find({})
+        coll.find({$or: [{}]})
+        coll.find({}).sort({nationality: -1}) (1 or -1 for asc or desc)
+        coll.update({nationality: 'irish'}, {$set: {hair_colour: 'purple'}},{multi:true});
+        coll.update({nationality: 'irish'}, {$set: {hair_colour: 'purple'}};        (only updates first instance it finds)
+        coll.remove({});
+
+
