@@ -13,3 +13,6 @@ Command line commands:
         coll.remove({});
 
 
+Installing mongo for python:
+        (sudo) pip3 install dnspython
+        (sudo) pip3 install pymongo
